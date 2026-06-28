@@ -1,4 +1,9 @@
 # Rust CLI Calculator
+
+A simple command-line calculator written in Rust.
+
+This project was built as part of my journey learning Rust. Rather than relying on external crates or complex abstractions, the focus is on understanding Rust fundamentals such as modules, functions, user input, pattern matching, error handling, and basic project structure.
+
 ---
 
 ## Features
