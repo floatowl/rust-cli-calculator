@@ -7,9 +7,9 @@ This project was built as part of my journey learning Rust. Rather than relying 
 ---
 
 ## Features
-
-- ➕ Addition
-- ➖ Subtraction
+- Addition
+- Subtraction
+- Multiplication
 
 ---
 
@@ -56,7 +56,8 @@ Choose your operation!
 
 1. Addition
 2. Subtraction
-3. Exit
+3. Multiplication
+4. Exit
 
 > 1
 

@@ -6,7 +6,7 @@ fn main() {
     functions::print_menu();
 
     let mut choice: String = String::new();
-    io::stdin().read_line(&mut choice);
+    io::stdin().read_line(&mut choice).unwrap();
     let choice: i32 = choice.trim().parse().expect("Failed to parse");
 
     match choice {
@@ -27,6 +27,14 @@ fn main() {
         }
 
         3 => {
+            println!("Please enter two numbers");
+            let number1: f64 = take_input();
+            let number2: f64 = take_input();
+            let result: f64 = functions::mul(number1, number2);
+            println!("The product is {}", result);
+        }
+
+        4 => {
             println!("Exitting the program");
             std::process::exit(0);
         }
@@ -36,3 +44,4 @@ fn main() {
         }
     }
 }
+
